@@ -13,7 +13,7 @@ public class Demenagement {
 		System.out.println("Debut du déménagement");
 		System.out.println("noVoyage nbCartons emport capCamion");
 		int noVoyage=1;
-		do {
+		do {  
 			int emport;
 			if (nbCartons <= capCamion)
 				emport = nbCartons;
